@@ -16,8 +16,11 @@
   .url { display: block; padding: .8rem 1rem; margin: 1rem 0 2rem; }
   ol { padding-left: 1.4rem; }
   ol li { margin: .35rem 0; }
-  ol a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(127,127,127,.35); }
-  ol a:hover { border-bottom-color: currentColor; }
+  ol a { color: #0a66c2; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+  ol a:hover { text-decoration-thickness: 2px; }
+  @media (prefers-color-scheme: dark) {
+    ol a { color: #6ea8ff; }
+  }
   .date { color: #888; font-variant-numeric: tabular-nums; }
   footer { margin-top: 3rem; color: #888; font-size: .9rem; }
 </style>
