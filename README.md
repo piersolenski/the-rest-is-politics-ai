@@ -1,4 +1,4 @@
-# The Rest Is AI
+# The Rest Is AI Miniseries
 
 The AI-focused episodes from *The Rest Is Politics*, served as a podcast feed.
 
