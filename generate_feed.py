@@ -30,7 +30,7 @@ ARTWORK = ("https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff3386
            "image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg")
 
 CHANNEL = {
-    "title": "The Rest Is Politics: AI Series",
+    "title": "The Rest Is AI",
     "description": (
         "The AI-focused episodes from The Rest Is Politics, "
         "covering the December 2025 - May 2026 arc with Rory Stewart and Matt Clifford, "
