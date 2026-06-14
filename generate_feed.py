@@ -30,14 +30,14 @@ ARTWORK = ("https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff3386
            "image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg")
 
 CHANNEL = {
-    "title": "The Rest Is Politics: AI Series (Personal Mix)",
+    "title": "The Rest Is Politics: AI Series",
     "description": (
-        "A curated playlist of the AI-focused episodes from The Rest Is Politics, "
+        "The AI-focused episodes from The Rest Is Politics, "
         "covering the December 2025 - May 2026 arc with Rory Stewart and Matt Clifford, "
         "plus two Leading interviews (William MacAskill, Jack Clark of Anthropic). "
-        "Audio rehosted for personal listening. Original podcast (c) Goalhanger Podcasts."
+        "Original podcast (c) Goalhanger Podcasts."
     ),
-    "author": "Goalhanger Podcasts (curated by Piers)",
+    "author": "Goalhanger Podcasts",
     "owner_name": "Piers Olenski",
     "owner_email": "hello@piers.io",
     "language": "en",
@@ -97,6 +97,11 @@ def find_by_needle(items, needle):
     raise SystemExit(f"No source item matches: {needle!r}")
 
 
+def clean_title(t):
+    t = re.sub(r"\s*\(Ep\s*\d+\)\s*", " ", t, flags=re.IGNORECASE)
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def fmt_duration(d):
     if not d: return ""
     if ":" in d: return d
@@ -119,7 +124,7 @@ def build_item(src, filename, ep_num):
         pubdate_dt = pubdate_dt.replace(tzinfo=timezone.utc)
     pubdate_822 = format_datetime(pubdate_dt)
     asset_url = f"{ASSET_BASE}/{filename}"
-    title = escape(src["title"])
+    title = escape(clean_title(src["title"]))
     desc = src["description"]
     summary = src["summary"] or desc
     # GUID: deterministic but distinct from source feed so apps don't mark as played

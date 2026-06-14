@@ -1,6 +1,6 @@
-# The Rest Is Politics: AI Series (Personal Mix)
+# The Rest Is Politics: AI Series
 
-A curated playlist of the AI-focused episodes from *The Rest Is Politics*, rehosted as a podcast feed for personal listening.
+The AI-focused episodes from *The Rest Is Politics*, served as a podcast feed.
 
 ## Subscribe
 
@@ -12,11 +12,11 @@ https://piersolenski.github.io/the-rest-is-politics-ai/feed.xml
 
 ## Episodes (chronological listening order)
 
-1. How Will AI Change The World? (Ep 1) - 2025-12-12
-2. Will AI Take Our Jobs? (Ep 2) - 2025-12-19
-3. China Vs USA: Who Will Win the AI Race? (Ep 3) - 2026-01-09
+1. How Will AI Change The World? - 2025-12-12
+2. Will AI Take Our Jobs? - 2025-12-19
+3. China Vs USA: Who Will Win the AI Race? - 2026-01-09
 4. Will AI End Humanity? - 2026-01-16
-5. What If the AI Revolution Isn't Real? (Ep 5) - 2026-01-26
+5. What If the AI Revolution Isn't Real? - 2026-01-26
 6. The Future of Warfare: Anthropic vs OpenAI - 2026-03-06
 7. Who Is Really Running the AI Revolution? - 2026-03-27
 8. LEADING: Will AI Give China or the US Total Power? (William MacAskill) - 2026-05-10

@@ -4,13 +4,13 @@
      xmlns:atom="http://www.w3.org/2005/Atom"
      version="2.0">
   <channel>
-    <title>The Rest Is Politics: AI Series (Personal Mix)</title>
+    <title>The Rest Is Politics: AI Series</title>
     <link>https://piersolenski.github.io/the-rest-is-politics-ai/</link>
     <atom:link href="https://piersolenski.github.io/the-rest-is-politics-ai/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <description><![CDATA[A curated playlist of the AI-focused episodes from The Rest Is Politics, covering the December 2025 - May 2026 arc with Rory Stewart and Matt Clifford, plus two Leading interviews (William MacAskill, Jack Clark of Anthropic). Audio rehosted for personal listening. Original podcast (c) Goalhanger Podcasts.]]></description>
-    <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
-    <itunes:summary><![CDATA[A curated playlist of the AI-focused episodes from The Rest Is Politics, covering the December 2025 - May 2026 arc with Rory Stewart and Matt Clifford, plus two Leading interviews (William MacAskill, Jack Clark of Anthropic). Audio rehosted for personal listening. Original podcast (c) Goalhanger Podcasts.]]></itunes:summary>
+    <description><![CDATA[The AI-focused episodes from The Rest Is Politics, covering the December 2025 - May 2026 arc with Rory Stewart and Matt Clifford, plus two Leading interviews (William MacAskill, Jack Clark of Anthropic). Original podcast (c) Goalhanger Podcasts.]]></description>
+    <itunes:author>Goalhanger Podcasts</itunes:author>
+    <itunes:summary><![CDATA[The AI-focused episodes from The Rest Is Politics, covering the December 2025 - May 2026 arc with Rory Stewart and Matt Clifford, plus two Leading interviews (William MacAskill, Jack Clark of Anthropic). Original podcast (c) Goalhanger Podcasts.]]></itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:owner>
@@ -23,7 +23,7 @@
     </itunes:category>
     <image>
       <url>https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff33860d23a/image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg</url>
-      <title>The Rest Is Politics: AI Series (Personal Mix)</title>
+      <title>The Rest Is Politics: AI Series</title>
       <link>https://piersolenski.github.io/the-rest-is-politics-ai/</link>
     </image>
     <item>
@@ -94,7 +94,7 @@ Assistant Producer: Daisy Alston-Horne
 Senior Producer: Nicole Maslen
 
 General Manager: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Sun, 31 May 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/09-leading-is-it-already-too-late-to-control-ai-jack-clark.mp3" length="120897817" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-09-09-leading-is-it-already-too-late-to-control-ai-jack-clark.mp3</guid>
@@ -152,7 +152,7 @@ Senior Producer: Nicole Maslen
 Exec Producer: Chris Sawyer
 
 General Manager: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Sun, 10 May 2026 23:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/08-leading-will-ai-give-china-or-us-total-power-macaskill.mp3" length="119889281" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-08-08-leading-will-ai-give-china-or-us-total-power-macaskill.mp3</guid>
@@ -210,7 +210,7 @@ Video Editor: Charlie Rodwell
 Producer: India Dunkley
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/07-who-is-really-running-the-ai-revolution.mp3" length="84543793" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-07-07-who-is-really-running-the-ai-revolution.mp3</guid>
@@ -284,7 +284,7 @@ Assistant Producer: Daisy Alston-Horne
 Senior Producer: Callum Hill
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/06-the-future-of-warfare-anthropic-vs-openai.mp3" length="148147595" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-06-06-the-future-of-warfare-anthropic-vs-openai.mp3</guid>
@@ -295,7 +295,7 @@ Exec Producer: Tom Whiter]]></itunes:summary>
       <itunes:image href="https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff33860d23a/image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg"/>
     </item>
     <item>
-      <title>What If the AI Revolution Isn’t Real? (Ep 5) | Full Episode</title>
+      <title>What If the AI Revolution Isn’t Real? | Full Episode</title>
       <description><![CDATA[Is AI a revolution, or just another slow-moving general technology? Are we mistaking hype for inevitability? And, can a technology this unreliable really reshape civilisation?
 
 
@@ -346,7 +346,7 @@ Producer: India Dunkley
 Senior Producer: Callum Hill
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/05-what-if-the-ai-revolution-isnt-real.mp3" length="88412016" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-05-05-what-if-the-ai-revolution-isnt-real.mp3</guid>
@@ -408,7 +408,7 @@ Producer: India Dunkley
 Senior Producer: Callum Hill
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/04-will-ai-end-humanity.mp3" length="74354309" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-04-04-will-ai-end-humanity.mp3</guid>
@@ -419,7 +419,7 @@ Exec Producer: Tom Whiter]]></itunes:summary>
       <itunes:image href="https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff33860d23a/image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg"/>
     </item>
     <item>
-      <title>China Vs USA: Who Will Win the AI Race? (Ep 3) | FULL EPISODE</title>
+      <title>China Vs USA: Who Will Win the AI Race? | FULL EPISODE</title>
       <description><![CDATA[Who really controls AI; governments, corporations, or no one at all? Is AI becoming a new kind of global arms race? And, can we keep humans in charge of systems that move faster than we do?
 
 
@@ -466,7 +466,7 @@ Producer:  India Dunkley
 Senior Producer: Callum Hill
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/03-china-vs-usa-who-will-win-the-ai-race.mp3" length="99326538" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-03-03-china-vs-usa-who-will-win-the-ai-race.mp3</guid>
@@ -477,7 +477,7 @@ Exec Producer: Tom Whiter]]></itunes:summary>
       <itunes:image href="https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff33860d23a/image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg"/>
     </item>
     <item>
-      <title>Will AI Take Our Jobs? (Ep 2) | FULL EPISODE</title>
+      <title>Will AI Take Our Jobs? | FULL EPISODE</title>
       <description><![CDATA[Is AI a genuine productivity revolution, or just another tech bubble? Are any jobs safe from the advent of AI? And, can the UK harness the innovation, or will it fall behind? 
 
 Rory Stewart is joined by former government advisor of AI, and author of the AI Action Plan, for a members only series on the future of Artificial Intelligence. 
@@ -532,7 +532,7 @@ Producer: India Dunkley
 Senior Producer: Callum Hill
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Fri, 19 Dec 2025 00:05:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/02-will-ai-take-our-jobs.mp3" length="132127248" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-02-02-will-ai-take-our-jobs.mp3</guid>
@@ -543,7 +543,7 @@ Exec Producer: Tom Whiter]]></itunes:summary>
       <itunes:image href="https://megaphone.imgix.net/podcasts/210911d2-01fc-11ed-ae3f-fff33860d23a/image/5aaf8b0916f97b04cc05ff654c4fcff1.jpg"/>
     </item>
     <item>
-      <title>How Will AI Change The World? (Ep 1) | FULL EPISODE</title>
+      <title>How Will AI Change The World? | FULL EPISODE</title>
       <description><![CDATA[How will artificial intelligence transform the way we live, work, and shape our lifestyles over the next decade? With investment in AI exploding over the past twelve years, are we witnessing the dawn of a technological gold mine or the inflation of another classic bubble? And why isn’t this revolution attracting the scrutiny it deserves?
 
 
@@ -598,7 +598,7 @@ Producer: India Dunkley
 Senior Producer: Callum Hill
 
 Exec Producer: Tom Whiter]]></itunes:summary>
-      <itunes:author>Goalhanger Podcasts (curated by Piers)</itunes:author>
+      <itunes:author>Goalhanger Podcasts</itunes:author>
       <pubDate>Fri, 12 Dec 2025 00:05:00 +0000</pubDate>
       <enclosure url="https://github.com/piersolenski/the-rest-is-politics-ai/releases/download/v1/01-how-will-ai-change-the-world.mp3" length="79352602" type="audio/mpeg"/>
       <guid isPermaLink="false">piers-trip-ai-01-01-how-will-ai-change-the-world.mp3</guid>
