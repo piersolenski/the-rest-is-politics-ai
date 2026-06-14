@@ -33,7 +33,7 @@
 
     body {
       font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-      max-width: 38rem;
+      max-width: 62ch;
       margin: 0 auto;
       padding: 0 1.25rem 4rem;
     }
@@ -51,7 +51,7 @@
     @media (min-width: 42rem) {
       .hero {
         width: 100%;
-        max-width: 38rem;
+        max-width: 62ch;
         margin: 2.5rem 0 1.6rem;
         border-radius: 8px;
         border-bottom: none;
@@ -88,17 +88,56 @@
       background: var(--code-bg);
       padding: .12rem .4rem;
       border-radius: 4px;
-      word-break: break-all;
+      overflow-wrap: anywhere;
       color: var(--fg);
     }
 
-    .url {
-      display: block;
+    button.url {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      width: 100%;
+      text-align: left;
       padding: .9rem 1rem;
       margin: .8rem 0 2.4rem;
+      border: none;
       border-left: 3px solid var(--accent);
-      font-size: .95rem;
+      border-radius: 4px;
+      font: inherit;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: .88rem;
+      cursor: pointer;
+      transition: background .15s, color .15s, border-color .15s;
     }
+
+    button.url:hover {
+      background: var(--rule);
+    }
+
+    button.url:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    button.url .url-text { flex: 1; }
+
+    button.url .copy-hint {
+      flex-shrink: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-size: .72rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    button.url[data-state="copied"] {
+      background: var(--accent);
+      border-left-color: var(--accent);
+      color: #fff;
+    }
+
+    button.url[data-state="copied"] .copy-hint { color: rgba(255, 255, 255, .8); }
 
     .label {
       font-weight: 600;
@@ -160,7 +199,10 @@
     technology reshaping our world.</p>
 
   <p class="label">Paste into your podcast app:</p>
-  <code class="url">https://piersolenski.github.io/the-rest-is-politics-ai/feed.xml</code>
+  <button class="url" type="button" id="feedCopy" title="Click to copy">
+    <span class="url-text">https://piersolenski.github.io/the-rest-is-politics-ai/feed.xml</span>
+    <span class="copy-hint" aria-hidden="true">Copy</span>
+  </button>
 
   <ol>
     <li><a
@@ -193,6 +235,47 @@
   </ol>
 
   <footer>Original podcast (c) Goalhanger Podcasts. Rehosted for personal listening.</footer>
+
+  <script>
+    (function () {
+      const btn = document.getElementById('feedCopy');
+      if (!btn) return;
+      const urlText = btn.querySelector('.url-text');
+      const hint = btn.querySelector('.copy-hint');
+      const original = urlText.textContent.trim();
+
+      async function copy() {
+        try {
+          await navigator.clipboard.writeText(original);
+          show('Copied', 'copied');
+        } catch (e) {
+          const range = document.createRange();
+          range.selectNodeContents(urlText);
+          const sel = window.getSelection();
+          sel.removeAllRanges();
+          sel.addRange(range);
+          try {
+            document.execCommand('copy');
+            show('Copied', 'copied');
+          } catch (e2) {
+            show('Select and copy', 'error');
+          }
+        }
+      }
+
+      function show(label, state) {
+        hint.textContent = label;
+        btn.dataset.state = state;
+        clearTimeout(btn._t);
+        btn._t = setTimeout(function () {
+          hint.textContent = 'Copy';
+          btn.dataset.state = '';
+        }, 1600);
+      }
+
+      btn.addEventListener('click', copy);
+    })();
+  </script>
 </body>
 
 </html>
