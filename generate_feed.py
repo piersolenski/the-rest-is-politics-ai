@@ -167,10 +167,13 @@ def main():
 
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:atom="http://www.w3.org/2005/Atom"
      version="2.0">
   <channel>
+    <itunes:block>Yes</itunes:block>
+    <googleplay:block>Yes</googleplay:block>
     <title>{escape(CHANNEL['title'])}</title>
     <link>{PAGES_BASE}/</link>
     <atom:link href="{PAGES_BASE}/feed.xml" rel="self" type="application/rss+xml"/>
